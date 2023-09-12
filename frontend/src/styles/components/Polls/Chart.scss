@@ -1,0 +1,65 @@
+.table {
+  border-collapse: collapse;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.th {
+  text-align: left;
+  padding: 8px;
+}
+.td {
+  text-align: left;
+  padding: 8px;
+}
+
+.tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.result-container table {
+  border: 1px solid #ccc;
+}
+
+.result-container th {
+  background-color: $theme-primary;
+  color: white;
+}
+
+.result-container th,
+.result-container td {
+  border: 1px solid #ddd;
+}
+
+.result-container th:first-child,
+.result-container td:first-child {
+  border-left: none;
+}
+
+.result-container th:last-child,
+.result-container td:last-child {
+  border-right: none;
+}
+
+.button-wrapper {
+  margin-top: 5px;
+  // width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.candidateName {
+  margin: 5px;
+}
+
+.names-wrapper {
+  display: flex;
+  .name-wrapper {
+    padding-top: 20px;
+  }
+}

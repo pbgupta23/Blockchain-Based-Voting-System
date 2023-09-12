@@ -1,0 +1,80 @@
+.startContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.formContainer {
+  width: 100%;
+  max-width: 600px;
+}
+
+.candidate {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.candidateHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.candidateName {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.removeCandidate {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.candidateInfo {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.uploadPhoto {
+  margin-top: 8px;
+}
+
+.avatar-uploader .ant-upload-select-picture-card {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-uploader .ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.avatar-uploader .ant-upload-select-picture-card:hover {
+  border-color: #1890ff;
+}
+
+.avatar-uploader .ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.avatar-uploader .ant-upload-list-item {
+  margin-right: 8px;
+}
+
+.avatar-uploader .ant-upload-list-item-progress {
+  display: none;
+}

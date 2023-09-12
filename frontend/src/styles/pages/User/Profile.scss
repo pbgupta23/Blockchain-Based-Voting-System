@@ -1,0 +1,34 @@
+.profile-wrapper {
+  @include box-shadow;
+  padding: 50px;
+  display: flex;
+  border-radius: 10px;
+  box-sizing: border-box;
+justify-content: space-between;
+  .left-panel {
+    text-align: center;
+
+    .person-icon {
+      * {
+        font-size: 4rem;
+        color: $theme-primary;
+      }
+    }
+
+    .username {
+      padding: 20px 0 20px 0;
+    }
+  }
+
+  .right-panel {
+ 
+    .userdata {
+      margin: 20px 0;
+    }
+    .profile {
+      font-size: 1rem;
+      color: $theme-primary;
+
+    }
+  }
+}
